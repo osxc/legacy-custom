@@ -1,4 +1,43 @@
 ---
 - hosts: all
   roles:
-  - role: common/homebrew
+  
+  # command-line tools
+  - role: common/git
+    git_user_name: Robin Ricard
+    git_user_email: ricard.robin@gmail.com
+  
+  # web browsers
+  - role: common/cask_package
+    package_name: firefox
+  - role: common/cask_package
+    package_name: chromium
+  
+  # email
+  - role: common/cask_package
+    package_name: airmail
+  
+  # gui tools
+  - role: common/cask_package
+    package_name: alfred
+  - role: common/cask_package
+    package_name: spectacle
+  - role: common/cask_package
+    package_name: dropbox
+  
+  # developer software
+  - role: common/cask_package
+    package_name: atom
+  - role: common/cask_package
+    package_name: iterm2
+  
+  # graphic software
+  - role: common/cask_package
+    package_name: adobe-creative-cloud
+  
+  # entertainment
+  - role: common/cask_package
+    package_name: vlc
+  - role: common/cask_package
+    package_name: spotify
+  
