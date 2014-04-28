@@ -3,10 +3,10 @@
   roles:
   
   # command-line tools
-  - role: common/git
+  - role: git
     git_user_name: Robin Ricard
     git_user_email: ricard.robin@gmail.com
   
   # developer software
-  - role: common/cask_package
+  - role: cask_package
     package_name: atom
