@@ -23,6 +23,8 @@
     disabled: YES
   - role: cask_package
     package_name: flux
+  - role: cask_package
+    package_name: gfxcardstatus
 
   # cli
   # shell tooling
