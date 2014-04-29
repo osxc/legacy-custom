@@ -54,6 +54,12 @@
   - role: cask_package
     package_name: istat-menus
 
+  ## dev tools
+  - role: cask_package
+    package_name: github
+  - role: cask_package
+    package_name: ksdiff
+
   ## browsers
   - role: cask_package
     package_name: firefox
