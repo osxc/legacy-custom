@@ -58,7 +58,7 @@
   - role: cask_package
     package_name: github
   - role: cask_package
-    package_name: ksdiff
+    package_name: Kaleidoscope
 
   ## browsers
   - role: cask_package
