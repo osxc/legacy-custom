@@ -29,6 +29,14 @@
   - role: cask_package
     package_name: gfxcardstatus
 
+  # fonts
+  - role: cask_package
+    tap: caskroom/fonts
+    package_name: font-source-code-pro
+  - role: cask_package
+    tap: caskroom/fonts
+    package_name: font-sauce-code-powerline
+
   # cli
   # shell tooling
   - role: git
