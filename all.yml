@@ -47,6 +47,11 @@
     tap: thoughtbot/formulae
     package_name: gitsh
   - role: legit
+  - role: hub
+  - role: brew_package
+    package_name: git-extras
+  - role: brew_package
+    package_name: git-flow
   ## languages
   - role: brew_package
     package_name: node
