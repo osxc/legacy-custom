@@ -21,6 +21,8 @@
     package_name: asepsis
   - role: dashboard
     disabled: YES
+  - role: cask_package
+    package_name: flux
 
   # cli
   # shell tooling
