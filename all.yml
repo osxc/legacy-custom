@@ -31,6 +31,8 @@
     git_user_email: ricard.robin@gmail.com
   - role: oh_my_zsh
   - role: maximum_awesome
+  - role: brew_package
+    package_name: gitsh
   ## languages
   - role: rbenv
 
