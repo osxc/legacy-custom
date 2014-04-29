@@ -1,0 +1,14 @@
+---
+# link dotatom to .atom
+
+- name: cleanup
+  command: rm ~/.zshrc ~/.vimrc.bundles.local ~/.vimrc.local
+
+- name: symlink zshrc
+  file: state=link src=~/src/github.com/rricard/dotfiles/zshrc dest=~/.zshrc
+
+- name: symlink vimrc.bundles.local
+  file: state=link src=~/src/github.com/rricard/dotfiles/vimrc.bundles.local dest=~/.vimrc.bundles.local
+
+- name: symlink vimrc.local
+  file: state=link src=~/src/github.com/rricard/dotfiles/vimrc.local dest=~/.vimrc.local

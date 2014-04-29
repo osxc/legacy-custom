@@ -1,0 +1,16 @@
+---
+# shim hub
+
+- name: ensure bash_profile presence
+  ignore_errors: True
+  file: path=~/.bash_profile state=touch
+
+- name: ensure zshenv presence
+  ignore_errors: True
+  file: path=~/.zshenv state=touch
+
+- name: add shim to bash
+  lineinfile: dest=~/.bash_profile regexp="hub" line="eval \"$(hub alias -s)\"" state=present
+
+- name: add shim to zsh
+  lineinfile: dest=~/.zshenv regexp="hub" line="eval \"$(hub alias -s)\"" state=present

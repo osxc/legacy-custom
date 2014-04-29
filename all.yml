@@ -29,13 +29,29 @@
   - role: cask_package
     package_name: gfxcardstatus
 
+  # fonts
+  - role: cask_package
+    tap: caskroom/fonts
+    package_name: font-source-code-pro
+  - role: cask_package
+    tap: caskroom/fonts
+    package_name: font-sauce-code-powerline
+
   # cli
   # shell tooling
   - role: git
     git_user_name: Robin Ricard
     git_user_email: ricard.robin@gmail.com
-  - role: oh_my_zsh
-  - role: maximum_awesome
+  - role: dotfiles
+  - role: brew_package
+    tap: thoughtbot/formulae
+    package_name: gitsh
+  - role: legit
+  - role: hub
+  - role: brew_package
+    package_name: git-extras
+  - role: brew_package
+    package_name: git-flow
   ## languages
   - role: brew_package
     package_name: node
@@ -62,13 +78,13 @@
   ## deployment
   - role: brew_package
     package_name: heroku-toolbelt
+  - role: mozbuild
   # - role: brew_package
   #   package_name: ansible # Hey ! Already there !
 
   # gui
   ## text editors
-  - role: cask_package
-    package_name: atom
+  - role: dotatom
   - role: cask_package
     package_name: intellij-idea
   - role: cask_package
