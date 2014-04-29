@@ -87,7 +87,7 @@
   - role: cask_package
     package_name: github
   - role: cask_package
-    package_name: Kaleidoscope
+    package_name: kaleidoscope
 
   ## browsers
   - role: cask_package
