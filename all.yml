@@ -42,8 +42,7 @@
   - role: git
     git_user_name: Robin Ricard
     git_user_email: ricard.robin@gmail.com
-  - role: oh_my_zsh
-  - role: maximum_awesome
+  - role: dotfiles
   - role: brew_package
     tap: thoughtbot/formulae
     package_name: gitsh
