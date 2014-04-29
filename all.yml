@@ -35,6 +35,8 @@
   - role: maximum_awesome
   ## languages
   - role: rbenv
+  - role: cask_package
+    package_name: java
 
   # gui
   ## text editors
