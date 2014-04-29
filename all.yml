@@ -112,3 +112,5 @@
     package_name: spotify
   - role: cask_package
     package_name: google-hangouts
+  - role: cask_package
+    package_name: flash
