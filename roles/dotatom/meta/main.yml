@@ -1,0 +1,6 @@
+---
+dependencies:
+- role: brew_cask
+  package_name: atom
+- role: git_package
+  repo: github.com/rricard/dotatom

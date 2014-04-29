@@ -79,8 +79,7 @@
 
   # gui
   ## text editors
-  - role: cask_package
-    package_name: atom
+  - role: dotatom
   - role: cask_package
     package_name: intellij-idea
   - role: cask_package
