@@ -2,12 +2,33 @@
 - hosts: all
   roles:
 
+  # osx config
+  - role: dock
+    apps:
+    - /Applications/Firefox.app
+    - /Applications/Airmail.app
+    - /Applications/Dashlane.app
+    - /Applications/Spotify.app
+    - /Applications/Atom.app
+    - /Applications/iTerm.app
+    - /Applications/Dash.app
+    folders:
+    - path: ~/
+    - path: ~/Documents
+    - path: ~/Downloads
+      sort: datemodified
+  - role: cask_package
+    package_name: asepsis
+  - role: dashboard
+    disabled: YES
+
   # cli
-  ## shell tooling
-  # - role: git
-  #   git_user_name: Robin Ricard
-  #   git_user_email: ricard.robin@gmail.com
-  # - role: oh_my_zsh
+  # shell tooling
+  - role: git
+    git_user_name: Robin Ricard
+    git_user_email: ricard.robin@gmail.com
+  - role: oh_my_zsh
+  - role: maximum_awesome
   ## languages
   - role: rbenv
 
@@ -15,6 +36,8 @@
   ## text editors
   - role: cask_package
     package_name: atom
+  - role: cask_package
+    package_name: intellij-idea
 
   ## tooling
   - role: cask_package
