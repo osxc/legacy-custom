@@ -133,6 +133,10 @@
   - role: cask_package
     package_name: skitch
 
+  ## office
+  - role: cask_package
+    package_name: libreoffice
+
   ## entertainment
   - role: cask_package
     package_name: vlc
