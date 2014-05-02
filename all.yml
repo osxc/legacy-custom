@@ -130,6 +130,8 @@
   ## graphics
   - role: cask_package
     package_name: adobe-creative-cloud
+  - role: cask_package
+    package_name: skitch
 
   ## entertainment
   - role: cask_package
