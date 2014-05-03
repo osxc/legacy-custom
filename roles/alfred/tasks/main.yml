@@ -1,3 +1,0 @@
----
-- name: include casks into search scope
-  command: brew cask alfred link

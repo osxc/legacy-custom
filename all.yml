@@ -24,10 +24,6 @@
     package_name: asepsis
   - role: dashboard
     disabled: YES
-  - role: cask_package
-    package_name: flux
-  - role: cask_package
-    package_name: gfxcardstatus
 
   # fonts
   - role: cask_package
@@ -40,109 +36,36 @@
   # cli
   # shell tooling
   - role: git
-    git_user_name: Robin Ricard
-    git_user_email: ricard.robin@gmail.com
-  - role: dotfiles
-  - role: brew_package
-    tap: thoughtbot/formulae
-    package_name: gitsh
+    git_user_name: Bob Bob
+    git_user_email: bob.bob@example.com
   - role: legit
   - role: hub
   - role: brew_package
-    package_name: git-extras
-  - role: brew_package
-    package_name: git-flow
+    package_name: vim
   ## languages
   - role: brew_package
     package_name: node
   - role: rbenv
+  - role: npm_package
+    package_name: grunt
+  - role: npm_package
+    package_name: bower
   - role: cask_package
     package_name: java
   - role: brew_package
-    package_name: maven
-  - role: brew_package
-    package_name: leiningen
-  - role: brew_package
-    package_name: sbt
-  - role: brew_package
-    package_name: go
-  - role: brew_package
-    package_name: rust
-  - role: brew_package
     package_name: android-sdk
-  - role: brew_package
-    package_name: android-ndk
   ## databases
   - role: brew_package
     package_name: postgres
   - role: brew_package
     package_name: mongodb
-  - role: brew_package
-    package_name: redis
-  - role: brew_package
-    package_name: elasticsearch
   ## deployment
   - role: brew_package
     package_name: heroku-toolbelt
-  - role: mozbuild
   # - role: brew_package
   #   package_name: ansible # Hey ! Already there !
 
   # gui
   ## text editors
-  - role: dotatom
   - role: cask_package
-    package_name: intellij-idea
-  - role: cask_package
-    package_name: lighttable
-
-  ## tooling
-  - role: cask_package
-    package_name: the-unarchiver
-  - role: cask_package
-    package_name: cakebrew
-  - role: cask_package
-    package_name: dashlane
-  - role: cask_package
-    package_name: spectacle
-  - role: alfred
-  - role: cask_package
-    package_name: istat-menus
-
-  ## dev tools
-  - role: cask_package
-    package_name: github
-  - role: cask_package
-    package_name: kaleidoscope
-
-  ## browsers
-  - role: cask_package
-    package_name: firefox
-  - role: cask_package
-    package_name: chromium
-
-  ## sync
-  - role: cask_package
-    package_name: dropbox
-  - role: cask_package
-    package_name: google-drive
-
-  ## graphics
-  - role: cask_package
-    package_name: adobe-creative-cloud
-  - role: cask_package
-    package_name: skitch
-
-  ## office
-  - role: cask_package
-    package_name: libreoffice
-
-  ## entertainment
-  - role: cask_package
-    package_name: vlc
-  - role: cask_package
-    package_name: spotify
-  - role: cask_package
-    package_name: google-hangouts
-  - role: cask_package
-    package_name: flash
+    package_name: atom

@@ -1,8 +1,0 @@
----
-# link dotatom to .atom
-
-- name: symlink atom
-  file: state=link src=~/src/github.com/rricard/dotatom dest=~/.atom
-
-- name: update packages
-  command: sh ~/.atom/package.sh

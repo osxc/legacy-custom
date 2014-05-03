@@ -1,6 +1,0 @@
----
-dependencies:
-- role: maximum_awesome
-- role: oh_my_zsh
-- role: git_package
-  repo: github.com/rricard/dotfiles

@@ -1,6 +1,0 @@
----
-dependencies:
-- role: cask_package
-  package_name: atom
-- role: git_package
-  repo: github.com/rricard/dotatom

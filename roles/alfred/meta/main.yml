@@ -1,4 +1,0 @@
----
-dependencies:
-  - role: cask_package
-    package_name: alfred
